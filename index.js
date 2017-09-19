@@ -1,10 +1,11 @@
-const nircmd = require('nircmd')
+const switchDevice = require('./switchDevice')
+
 const audioDevices = [
   "Speakers",
   "Headset Earphone"
 ]
 
-nircmd('setdefaultsounddevice "Headset Earphone"')
+switchDevice(audioDevices[0])
 .then(() => {
 	console.log('audio device switched!')
 })
