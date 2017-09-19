@@ -1,0 +1,23 @@
+{
+  "name": "audio-switcher",
+  "version": "1.0.0",
+  "description": "Switch audio device on Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleymarkfletcher/audio-switcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleymarkfletcher/audio-switcher/issues"
+  },
+  "homepage": "https://github.com/ashleymarkfletcher/audio-switcher#readme",
+  "dependencies": {
+    "nircmd": "^2.0.0"
+  }
+}
