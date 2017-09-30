@@ -1,2 +1,2 @@
-# audio-switcher
-Switch audio device on Windows
+# audio-devices
+Get/Set audio devices in windows
