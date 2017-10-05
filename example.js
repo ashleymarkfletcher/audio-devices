@@ -1,4 +1,4 @@
-const audioDevices = require('./index.js');
+const audioDevices = require('audio-devices');
 
 audioDevices.setDevice('Speakers')
 .then(() => {

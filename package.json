@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ashleymarkfletcher/audio-devices#readme",
   "dependencies": {
+    "navigator": "^1.0.1",
     "nircmd": "^2.0.0"
   }
 }
