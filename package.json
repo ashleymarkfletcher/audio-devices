@@ -1,6 +1,6 @@
 {
   "name": "audio-devices",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "set/get audio devices on Windows",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/ashleymarkfletcher/audio-devices#readme",
   "dependencies": {
-    "navigator": "^1.0.1",
     "nircmd": "^2.0.0"
   }
 }
