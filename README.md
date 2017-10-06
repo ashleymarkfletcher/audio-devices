@@ -5,7 +5,7 @@ get and set the current audio device on windows.
 ### Installing
 
 ```bash
-$ npm install amx-setup --save
+$ npm install audio-devices --save
 ```
 ## Features
 
