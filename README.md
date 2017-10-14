@@ -2,6 +2,8 @@
 
 get and set the current audio device on windows.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/2cwals6wgr9fg1gx?svg=true)](https://ci.appveyor.com/project/ashleymarkfletcher/audio-devices)
+
 ### Installing
 
 ```bash
