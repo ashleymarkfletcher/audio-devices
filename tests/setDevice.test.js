@@ -1,4 +1,4 @@
-const setDevice = require('./setDevice');
+const setDevice = require('../setDevice');
 
 test('set the audio device to Speakers', () => {
   expect.assertions(1)

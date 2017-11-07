@@ -3,13 +3,30 @@
   "version": "0.0.5",
   "description": "set/get audio devices on Windows",
   "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "os": [
+    "win32"
+  ],
   "scripts": {
-    "test": "jest",
+    "test": "jest && codecov",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashleymarkfletcher/audio-devices.git"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/vendor/**",
+      "!index.js",
+      "!example.js"
+    ]
   },
   "keywords": [
     "audio",
@@ -24,6 +41,7 @@
   },
   "homepage": "https://github.com/ashleymarkfletcher/audio-devices#readme",
   "dependencies": {
+    "codecov": "^3.0.0",
     "nircmd": "^2.0.0"
   },
   "devDependencies": {
