@@ -4,7 +4,7 @@
   "description": "set/get audio devices on Windows",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js"
   },
   "repository": {
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/ashleymarkfletcher/audio-devices#readme",
   "dependencies": {
     "nircmd": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
   }
 }
