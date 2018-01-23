@@ -42,6 +42,7 @@
   "homepage": "https://github.com/ashleymarkfletcher/audio-devices#readme",
   "dependencies": {
     "codecov": "^3.0.0",
+    "cross-spawn": "^6.0.3",
     "nircmd": "^2.0.0"
   },
   "devDependencies": {
